@@ -51,16 +51,16 @@ def kelvin_fahrenheit(x):
 # \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ IF STATEMENT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 if converting == '1':
-  print(celsius_fahrenheit(num_degree))
+  print('The result of {}◦C to fahrenheit is {}◦F'.format(num_degree, celsius_fahrenheit(num_degree)))
 elif converting == '2':
-  print(celsius_kelvin(num_degree))
+  print('The result of {}◦C to fahrenheit is {}K'.format(num_degree, celsius_kelvin(num_degree)))
 elif converting == '3':
-  print(fahrenheit_celsius(num_degree))
+  print('The result of {}◦F to fahrenheit is {}◦C'.format(num_degree, fahrenheit_celsius(num_degree)))
 elif converting == '4':
-  print(fahrenheit_kelvin(num_degree))
+  print('The result of {}◦C to fahrenheit is {}K'.format(num_degree, fahrenheit_kelvin(num_degree)))
 elif converting == '5':
-  print(kelvin_celsius(num_degree))
+  print('The result of {}K to fahrenheit is {}◦C'.format(num_degree, kelvin_celsius(num_degree)))
 elif converting == '6':
-  print(kelvin_fahrenheit(num_degree))
+  print('The result of {}K to faHrenheit is {}◦F'.format(num_degree, kelvin_fahrenheit(num_degree)))
 else:
   print('Error : Invalid convert')
