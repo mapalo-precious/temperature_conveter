@@ -61,6 +61,6 @@ elif converting == '4':
 elif converting == '5':
   print('The result of {}K to fahrenheit is {}◦C'.format(num_degree, kelvin_celsius(num_degree)))
 elif converting == '6':
-  print('The result of {}K to faHrenheit is {}◦F'.format(num_degree, kelvin_fahrenheit(num_degree)))
+  print('The result of {}K to fahrenheit is {}◦F'.format(num_degree, kelvin_fahrenheit(num_degree)))
 else:
   print('Error : Invalid convert')
